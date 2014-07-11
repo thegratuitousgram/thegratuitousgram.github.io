@@ -102,8 +102,8 @@ hr {
     height: 1px;
     background: #898989;
     width: 340px;
-    margin-top: 0;
-    margin-bottom: 0;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 /*
@@ -133,9 +133,20 @@ hr {
   margin-bottom: 10px;
 }
 .setting .location {
-  /* When the EFM logo is added, this will need to move the text */
+  position: relative;
+} 
+.setting .location img {
+  display: inline-block;
+  padding-left: 64px;
 }
-
+.setting .location .caption {
+  display: inline-block;
+  position: absolute;
+  top: 10px;
+}
+.setting .location .caption p {
+  text-align: left;
+}
 
 /*
   Description section
