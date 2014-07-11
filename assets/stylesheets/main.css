@@ -98,12 +98,11 @@ b {
 /*
   Horizontal rules
 */
-hr {
-    height: 1px;
-    background: #898989;
-    width: 340px;
-    margin-top: 15px;
-    margin-bottom: 15px;
+.horizontal-rule {
+  border-bottom:1px solid #898989; 
+  height: 1px;
+  width: 340px;
+  margin: 15px auto;
 }
 
 /*
