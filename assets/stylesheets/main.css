@@ -114,7 +114,7 @@ hr {
   line-height: 54px;
   font-weight: 300;
   text-align: center;
-  margin-top: 0;
+  margin-top: 10px;
   margin-bottom: 0;
 }
 
@@ -151,40 +151,50 @@ hr {
 /*
   Description section
 */
-.description p {
-  font-size: 14px;
-  line-height: 14px;
-  text-align: left;
-  margin-top: 0;
-  margin-bottom: 10px;
-}
-.col-left {
+.description .col-left {
   width: 200px;
   display: inline-block;
+  margin-bottom: 10px;
 }
-.col-right {
+.description .col-left img {
+  width: 190px;
+}
+.description .col-right {
   width: 300px;
   display: inline-block;
   vertical-align: top;
 }
-
+.description .col-right p {
+  font-size: 14px;
+  line-height: 16px;
+  text-align: left;
+  margin: 10px 0 10px 0;
+}
+.description .col-right p:first-child {
+  margin-top: 3px;
+}
+.description .meal-image {
+  margin-bottom: 5px;
+}
 
 /*
   About section
 */
 .about p {
   font-size: 14px;
-  line-height: 14px;
+  line-height: 16px;
   text-align: center;
   margin-top: 0;
   margin-bottom: 0;
 }
 .about .portraits {
+  margin-bottom: 10px;
+  margin-top: 10px;
   text-align: center;
 }
 .about .portraits img {
   width: 140px;
   display: inline-block;  
-  margin: 0 15px 0 15px;
+  margin: 0 7px 0 7px;
 }
 
