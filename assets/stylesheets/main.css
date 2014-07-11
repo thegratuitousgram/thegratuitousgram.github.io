@@ -176,7 +176,7 @@ hr {
 /*
   About section
 */
-.about p {
+.about .info p {
   font-size: 14px;
   line-height: 16px;
   text-align: center;
