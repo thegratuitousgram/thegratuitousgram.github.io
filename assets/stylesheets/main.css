@@ -177,7 +177,8 @@ hr {
   About section
 */
 .about p {
-  font: 300 14x/16px "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 16px;
   text-align: center;
   margin-top: 0;
   margin-bottom: 0;
